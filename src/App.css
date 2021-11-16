@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+ 
+
+.todo{
+  border-radius: 50px;
+}
+
+.ant-list-item  {
+  border-radius: 30px;
+  margin: 20px;
+  padding: 20px ;
+}
+ 
+/* .listTodo{
+  border-style: none;
+} */
+
+
+/* .content{
+  border-radius: 50px;
+} */
+
+.app{
+  padding: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 100px;
+}
