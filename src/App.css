@@ -13,6 +13,10 @@
   }
 }
 
+.list-iteddm{
+  border-radius: 50px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -37,7 +41,9 @@
   }
 }
 
- 
+ .ii{
+  padding: 20px ;
+ }
 
 .todo{
   border-radius: 50px;

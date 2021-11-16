@@ -95,9 +95,9 @@ function App() {
               renderItem={(item, index) => {
                 return (
 
-                  <div className="list-iteddm">
-                    <List.Item style={ 
-                      item.type == 2 ? { backgroundColor: 'lime' } : item.type == 1 ? { backgroundColor: 'red' } : {}} >
+                  <div className="list-iteddm" style={
+                    item.type == 2 ? { backgroundColor: 'lime' } : item.type == 1 ? { backgroundColor: 'red' } : {}}>
+                    <List.Item >
                       <List.Item.Meta
                         title={item.text}
                         description={item.date}
