@@ -90,7 +90,7 @@ function App() {
               border: '1px solid rgba(140, 140, 140, 0.35)',
             }}
           >
-            <List 
+            <List
               dataSource={todo}
               renderItem={(item, index) => {
                 return (
@@ -151,7 +151,7 @@ function App() {
 
           <div style={{ textAlign: 'center', marginTop: 12, lineHeight: '32px', overflow: 'auto', }}>
             <Tooltip title="add">
-              <Button shape="circle" onClick={showModal} style={{ color: 'green'  }} icon={<PlusCircleFilled />} />
+              <Button shape="circle" onClick={showModal} style={{ color: 'green' }} icon={<PlusCircleFilled />} />
             </Tooltip>
           </div>
 
